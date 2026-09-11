@@ -108,3 +108,27 @@ button:active {
     font-size: 12px;
     margin-top: 18px;
 }
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("images/girl.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.22;
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 5, 30, 0.35);
+    z-index: -1;
+}
