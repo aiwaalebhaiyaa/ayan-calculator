@@ -12,14 +12,14 @@ body {
 
     font-family: Arial, sans-serif;
 
-    /* BLACK + PINK BACKGROUND */
+    /* BLACK + ISLAMIC GREEN BACKGROUND */
     background: linear-gradient(
         135deg,
         #000000 0%,
-        #090307 25%,
-        #210914 50%,
-        #5c1238 75%,
-        #ff2f92 100%
+        #020a05 25%,
+        #032b16 50%,
+        #075c32 75%,
+        #0b8f4d 100%
     );
 
     padding: 20px;
@@ -38,13 +38,13 @@ body {
     border-radius: 30px;
 
     /* DARK GLASS */
-    background: rgba(5, 5, 5, 0.88);
+    background: rgba(3, 8, 5, 0.90);
 
-    border: 1px solid rgba(255, 47, 146, 0.35);
+    border: 1px solid rgba(34, 197, 94, 0.35);
 
     box-shadow:
-        0 25px 60px rgba(0, 0, 0, 0.7),
-        0 0 35px rgba(255, 47, 146, 0.18);
+        0 25px 60px rgba(0, 0, 0, 0.75),
+        0 0 35px rgba(34, 197, 94, 0.18);
 
     position: relative;
     overflow: hidden;
@@ -52,7 +52,7 @@ body {
 
 
 /* =========================
-   GIRL IMAGE OVERLAY
+   BOY IMAGE OVERLAY
    ========================= */
 
 .calculator::before {
@@ -61,18 +61,19 @@ body {
     position: absolute;
     inset: 0;
 
-    background-image: url("images/girl.jpg");
+    background-image: url("images/boy.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
+    /* IMAGE OPACITY */
     opacity: 0.20;
 
     z-index: 0;
 }
 
 
-/* KEEP ALL CONTENT ABOVE IMAGE */
+/* KEEP CONTENT ABOVE IMAGE */
 
 .calculator > * {
     position: relative;
@@ -97,7 +98,7 @@ body {
     margin-bottom: 18px;
 
     text-shadow:
-        0 0 10px rgba(255, 47, 146, 0.6);
+        0 0 10px rgba(34, 197, 94, 0.60);
 }
 
 
@@ -113,9 +114,9 @@ body {
 
     border-radius: 20px;
 
-    background: rgba(0, 0, 0, 0.88);
+    background: rgba(0, 0, 0, 0.90);
 
-    border: 1px solid rgba(255, 47, 146, 0.15);
+    border: 1px solid rgba(34, 197, 94, 0.18);
 
     color: white;
 
@@ -130,7 +131,7 @@ body {
 
 
 #previous {
-    color: #c084a5;
+    color: #86b99a;
 
     font-size: 16px;
 
@@ -148,7 +149,7 @@ body {
     color: #ffffff;
 
     text-shadow:
-        0 0 12px rgba(255, 47, 146, 0.35);
+        0 0 12px rgba(34, 197, 94, 0.35);
 }
 
 
@@ -182,7 +183,7 @@ button {
 
     cursor: pointer;
 
-    background: rgba(30, 30, 30, 0.92);
+    background: rgba(20, 30, 24, 0.94);
 
     color: white;
 
@@ -195,10 +196,10 @@ button {
 button:hover {
     transform: scale(1.04);
 
-    background: rgba(55, 20, 38, 0.95);
+    background: rgba(8, 75, 40, 0.95);
 
     box-shadow:
-        0 0 15px rgba(255, 47, 146, 0.25);
+        0 0 15px rgba(34, 197, 94, 0.25);
 }
 
 
@@ -212,9 +213,9 @@ button:active {
    ========================= */
 
 .special {
-    background: rgba(65, 25, 45, 0.95);
+    background: rgba(25, 70, 45, 0.95);
 
-    color: #ff72b5;
+    color: #7ee2a5;
 }
 
 
@@ -223,17 +224,17 @@ button:active {
    ========================= */
 
 .operator {
-    background: rgba(190, 25, 105, 0.90);
+    background: rgba(10, 125, 65, 0.92);
 
     color: white;
 
     box-shadow:
-        0 0 12px rgba(255, 47, 146, 0.15);
+        0 0 12px rgba(34, 197, 94, 0.15);
 }
 
 
 .operator:hover {
-    background: rgba(235, 35, 130, 0.95);
+    background: rgba(15, 165, 85, 0.95);
 }
 
 
@@ -244,22 +245,22 @@ button:active {
 .equals {
     background: linear-gradient(
         135deg,
-        #ff147d,
-        #ff3c9d
+        #087f45,
+        #16a05d
     );
 
     color: white;
 
     box-shadow:
-        0 0 18px rgba(255, 47, 146, 0.35);
+        0 0 18px rgba(34, 197, 94, 0.35);
 }
 
 
 .equals:hover {
     background: linear-gradient(
         135deg,
-        #ff3c9d,
-        #ff65b5
+        #16a05d,
+        #22c878
     );
 }
 
@@ -280,7 +281,7 @@ button:active {
 .footer {
     text-align: center;
 
-    color: #b87d9a;
+    color: #82a995;
 
     font-size: 12px;
 
